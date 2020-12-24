@@ -4,9 +4,9 @@ import SecureDataImage from "../../images/secure_data.svg";
 import WalletImage from "../../images/wallet.svg";
 export const homeObjOne = {
   id: "about",
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
   topLine: "Premium Bank",
   headLine: "Unlimited Transactions with zero fees",
   description:
@@ -15,9 +15,9 @@ export const homeObjOne = {
   imgStart: false,
   img: OffRoadImage,
   alt: "Car",
-  dark: false,
-  primary: false,
-  darkText: true,
+  dark: true,
+  primary: true,
+  darkText: false,
 };
 
 export const homeObjTwo = {
@@ -39,7 +39,7 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-  id: "services",
+  id: "signup",
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
